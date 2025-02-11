@@ -7,7 +7,7 @@ void sort_int_tab(int *tab, int size)
     while (i < size - 1)
    {
     j = 0;
-    while (j < size - i - 1)
+    while (j < size - 1)
     {
         if (tab[j] > tab[j + 1])
         {
